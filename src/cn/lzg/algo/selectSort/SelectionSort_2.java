@@ -30,8 +30,8 @@ public class SelectionSort_2 {
     /**
      * 通过下标交换数组中的两个值
      * @param arr
-     * @param i   当前交换值的下值
-     * @param j  最小值的下标
+     * @param i
+     * @param j
      */
     public static void swap(Object[] arr,int i,int j){
         Object temp = arr[i];
