@@ -2,6 +2,9 @@ package cn.lzg.algo.bubbleSort;
 
 import cn.lzg.algo.selectSort.SortTestHelper;
 
+/**
+ * 冒泡排序
+ */
 public class BubbleSort {
 
     private BubbleSort(){}
