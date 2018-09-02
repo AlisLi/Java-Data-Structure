@@ -1,3 +1,5 @@
 SelectionSort_1：只能对int排序
 SelectionSort_2：利用泛型可以对所有实现Comparable接口的类进行排序
+SelectionSort_3：优化选择排序算法
 SortTestHelper：初始化随机数组，利用反射对sort方法进行性能的测试
+
