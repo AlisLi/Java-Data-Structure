@@ -33,7 +33,7 @@ public class MaxHeap<Item extends Comparable> {
         }
         count = n;
 
-        //完全二叉树：叶子节点个数 = 总节点数 / 2 或者 叶子节点个数 = 总节点数 / 2 + 1
+        //完全二二分搜索树：叶子节点个数 = 总节点数 / 2 或者 叶子节点个数 = 总节点数 / 2 + 1
         for( int i = count/2 ; i >= 1 ; i -- ){
             shiftDown(i);
         }
