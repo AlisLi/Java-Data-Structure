@@ -2,6 +2,7 @@ package cn.lzg.algo.binarySearchTree;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 /**
  * @author lzg
@@ -12,6 +13,7 @@ public class BST<Key extends Comparable<Key>,Value> {
 
     // 树中的节点为私有的类, 外界不需要了解二分搜索树节点的具体实现
     private class Node {
+
         private Key key;
         private Value value;
         private Node left,right;
@@ -153,7 +155,6 @@ public class BST<Key extends Comparable<Key>,Value> {
     // 在以node为根的二分搜索树中查找key所对应的value, 递归算法
     // 若value不存在, 则返回NULL
     private Value search(Node node,Key key) {
-
         if(node == null) {
             return null;
         }
